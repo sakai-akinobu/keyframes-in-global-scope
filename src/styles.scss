@@ -1,0 +1,11 @@
+:global {
+  .foo {
+    animation: bar;
+  }
+
+  @keyframes bar {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+}
